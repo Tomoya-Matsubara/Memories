@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/Cellar/node/15.5.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add core-js@^3
+
+PATH: 
+  /home/juto/anaconda3/bin:/Users/juto/anaconda3/bin:/Users/juto/anaconda3/condabin:/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.5.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, unlink '/Users/juto/Documents/CentraleSupélec/2A/Projet/augmentedreality/viro/code-samples/node_modules/react-native/third-party/folly-2018.10.22.00/.gitignore'
+
+npm manifest: 
+  {
+    "name": "ViroCodeSamples",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "prestart": "./node_modules/react-viro/bin/run_ngrok.sh",
+      "start": "node node_modules/react-native/local-cli/cli.js start",
+      "test": "jest"
+    },
+    "dependencies": {
+      "firebase": "^8.2.1",
+      "react": "16.8.3",
+      "react-native": "0.59.9",
+      "react-viro": "2.17.0"
+    },
+    "devDependencies": {
+      "babel-jest": "23.6.0",
+      "jest": "23.6.0",
+      "metro-react-native-babel-preset": "0.51.1",
+      "react-test-renderer": "16.6.1"
+    },
+    "jest": {
+      "preset": "react-native"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
